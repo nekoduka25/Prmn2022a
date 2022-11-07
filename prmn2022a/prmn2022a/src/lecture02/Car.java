@@ -9,9 +9,11 @@ public class Car {
     }
 
     void run(){
-        fuel = fuel - 1;
-        if(fuel > 0) {
+
+        if(this.fuel > 0) {
+            this.fuel = this.fuel - 1;
             System.out.println("燃料を1消費して走りました");
+
         }else{
             System.out.println("燃料がありません");
         }

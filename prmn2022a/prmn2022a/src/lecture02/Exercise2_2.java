@@ -7,7 +7,7 @@ public class Exercise2_2 {
         GasStation gas = new GasStation();
 
         car.run();
-        gas.refuel();
+        gas.refuel(car);
         car.run();
 
 
