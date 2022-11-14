@@ -11,11 +11,14 @@ public class Exercise3_2 {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
 
+        input.nextLine();
+
+
         ArrayList<String> arrayList = new ArrayList<>();
 
         for(int i = 0; i < num; i++){
             System.out.println(i + 1 + "行目：");
-            String s = input.next();
+            String s = input.nextLine();
             arrayList.add(s);
 
         }
