@@ -15,7 +15,6 @@ public class Fighter {
     public void attack(Fighter enemy) {
         enemy.hitPoint = enemy.hitPoint - this.Power;
         System.out.println(this.name + "は" + enemy.name + "に" + this.Power + "ダメージを与えた");
-        System.out.println(enemy.hitPoint);
 
     }
 
@@ -33,8 +32,6 @@ public class Fighter {
     public String getName() {
         return name;
     }
-
-
-
-
 }
+
+

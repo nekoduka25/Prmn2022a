@@ -26,7 +26,8 @@ public class Exercise3_2 {
         System.out.println("入力した文字：");
 
         for (String textList : arrayList) {
-            System.out.println(textList);
+
+            System.out.println("[" + arrayList.indexOf(textList) + "]"+textList);
         }
 
 

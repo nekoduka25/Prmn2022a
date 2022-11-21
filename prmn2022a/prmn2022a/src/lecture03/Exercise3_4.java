@@ -11,8 +11,10 @@ public class Exercise3_4 {
         vegetables.add(new Vegetable("たまねぎ",120));
         vegetables.add(new Vegetable("じゃがいも",154));
 
-        for(int i = 0; i < vegetables.size(); i++){
-            vegetables.get(i).print();
+        for (Vegetable textlist : vegetables) {
+            textlist.print();
+
+
 
 
         }
