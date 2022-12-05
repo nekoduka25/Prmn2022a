@@ -25,16 +25,19 @@ public class Exercise6_2 {
 
             System.out.println("何番目のサイコロの値を確認しますか？");
             int a = input.nextInt();
-            System.out.println(list.get(a));
+            int b = a - 1;
+            System.out.println(list.get(b));
         }
         catch(InputMismatchException e){
             System.out.println("整数以外の値が入力されました");
-            return;
+            System.out.println("プログラムを終了します");
+
 
         }
         catch(IndexOutOfBoundsException e){
             System.out.println("ArrayListの範囲外アクセスを確認しました");
-            return;
+            System.out.println("プログラムを終了します");
+
         }
 
 
