@@ -26,6 +26,7 @@ public class ATM {
             if (account.getName().equals(name) && account.getNumber().equals(number)) {
 
                 System.out.println("名前:" + name + " 口座番号:" + number + " は存在します。");
+
                 return true;
             }
 
@@ -78,10 +79,6 @@ public class ATM {
         return 0;
 
     }
-
-
-
-
 
 
 }
