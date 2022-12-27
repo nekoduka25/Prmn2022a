@@ -10,8 +10,6 @@ public class Exercise6_2 {
         Random random = new Random();
         Scanner input = new Scanner(System.in);
 
-        System.out.println(random.nextInt(6));
-
         ArrayList<Integer> list = new ArrayList<>();
 
         System.out.println("サイコロを5個振りました");
